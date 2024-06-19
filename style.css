@@ -80,6 +80,9 @@ body {
     width: 300px;
     border-radius: 7px;
 }
+.img-tema {
+    width: 200px;
+}
 .img-liturgos{
     width: 300px;
     border-radius: 7px;
@@ -104,7 +107,7 @@ body {
 .container-img-kotbah i,
 .container-img-liturgos i,
 .container-img-location i {
-    margin-top: 90px;
+    margin-top: 30px;
     margin-left: 10px;
     font-size: 4em;
     cursor: pointer;
