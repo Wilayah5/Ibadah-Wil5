@@ -96,3 +96,14 @@ navTime.addEventListener('click', function() {
 
     }
 })
+const navAyat = document.querySelector('.nav-ayat')
+const contentAyat = document.querySelector('.content-ayat')
+navAyat.addEventListener('click', function() {
+    containerUpdate.style.display = 'none'
+    contentAyat.style.display = 'block'
+    const arrayAyat = document.querySelector('#arrowAyat')
+    arrayAyat.onclick = function() {
+        containerUpdate.style.display = ''
+        contentAyat.style.display = ''
+    }
+})
