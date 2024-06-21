@@ -51,7 +51,8 @@ body {
 .content-music,
 .content-location,
 .content-liturgi,
-.content-time {
+.content-time,
+.content-ayat{
     display: none;
     border: 1px solid black;
     padding: 10px;
@@ -99,6 +100,10 @@ body {
     width: 350px;
     border-radius: 7px;
 }
+.img-ayat {
+    width: 250px;
+    border-radius: 7px;
+}
 .container-img-tema h3 {
     margin: 0;
 }
@@ -124,7 +129,8 @@ body {
 #arrowMusic,
 #arrowLocation,
 #arrowLiturgi,
-#arrowTime {
+#arrowTime,
+#arrowAyat{
     font-size: 4em;
     margin-top: 25px;
     cursor: pointer;
