@@ -52,7 +52,7 @@ body {
 .content-location,
 .content-liturgi,
 .content-time,
-.content-ayat{
+.content-ayat {
     display: none;
     border: 1px solid black;
     padding: 10px;
