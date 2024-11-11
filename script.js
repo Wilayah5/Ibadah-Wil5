@@ -107,3 +107,25 @@ navTime.addEventListener('click', function() {
 //         contentAyat.style.display = ''
 //     })
 // })
+// Date
+function updateTime() {
+    const date = new Date();
+    
+    const hours = date.getHours();
+    let minutes = date.getMinutes();
+    let seconds = date.getSeconds();
+    
+   
+    if (minutes < 10) minutes = '0' + minutes;
+    if (seconds < 10) seconds = '0' + seconds;
+    
+   
+    const timeString = `${hours}:${minutes}:${seconds}`;
+    
+   
+    const tagDate = document.querySelector('.date');
+    tagDate.textContent = timeString;
+  }
+  
+  
+  setInterval(updateTime, 1000);
