@@ -3,26 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Info Ibadah Wil5</title>
+    <title>Update WIL5</title>
     <link rel="stylesheet" href="style.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
 </head>
 <body>
     <div class="container-header">
         <div class="header">
-            <h1>IBADAH WIL5</h1>
+            <h1>Pemahaman Alkitab WIL5</h1>
+            <h2 class="date"></h2>
         </div>
     </div>
 
     <div class="container-main">
         <div class="container-update">
-            <div class="nav-tema">Tema</div>
-            <div class="nav-pf">PF</div>
-            <div class="nav-liturgos">Liturgos</div>
-            <div class="nav-music">Musik</div>
-            <div class="nav-location">Lokasi</div>
+            <div class="nav-tema">
+                <img src="iconTema.png">
+                <p>Tema</p>
+            </div>
+            <div class="nav-pf">
+                <img src="iconPf.png">
+                <p>PF</p>
+            </div>
+            <div class="nav-liturgos">
+                <img src="iconLiturgos.png">
+                <P>Liturgos</P>
+            </div>
+            <div class="nav-music">
+                <img src="music.png">
+                <p>Pemusik</p>
+            </div>
+            <div class="nav-location">
+                <img src="location.png">
+                <p><strong>Location</strong></p>
+            </div>
             <!-- <div class="nav-liturgi">Liturgi</div> -->
-            <div class="nav-time">Waktu</div>
+            <div class="nav-time">
+                <img src="waktu.png">
+                <p>Waktu</p>
+            </div>
             <!-- <div class="nav-ayat">Ayat Alkitab</div> -->
         </div>
     </div>
@@ -30,9 +49,9 @@
         <div class="tema">
             <h3>Tema</h3>
             <div class="container-img-tema">
-                <img src="temaIbadah.png" alt="tema" class="img-tema">
-                <i class="ph ph-arrow-fat-line-left" id="arrowTema"></i>
+                <img src="imageTema.png" alt="tema" class="img-tema">
                 
+                <i class="ph ph-arrow-fat-line-left" id="arrowTema"></i>    
             </div>
                 
         </div>
@@ -41,8 +60,8 @@
         <div class="pengkhotbah">   
             <h3>PF</h3>
             <div class="container-img-kotbah">
-                <img src="pdt Melani.png" alt="pengkhotbah" class="img-kotbah">                    
-                <h3>Pdt :   Melani Ayub Egne</h3>
+                <img src="kak Liem.png" alt="pengkhotbah" class="img-kotbah">                    
+                <h3>Pnt Lieam Septian A.N</h3>
                 <i class="ph ph-arrow-fat-line-left" id="arrowPf"></i>
             </div>
         </div>
@@ -51,8 +70,8 @@
         <div class="liturgos">
             <h3>Liturgos</h3>
             <div class="container-img-liturgos">
-                <img src="liturgos.png" alt="liturgos" class="img-liturgos">
-                <p>Ibu Risma Natalina</p>        
+                <img src="Ibu Jennita.png" alt="liturgos" class="img-liturgos">
+                <h3>Ibu Jenita Sibarani</h3>        
             </div>
             <i class="ph ph-arrow-fat-line-left" id="arrowLiturgos"></i>
         </div>
@@ -62,7 +81,7 @@
             <h3>Pemusik</h3>
             <div class="container-img-music">
                 <img src="pemusik.png" alt="pemusik" class="img-pemusik">
-                <p>Bpk. Jemmy Ririmase</p>
+                <h3>Bpk. Gilbert Megawe</h3>
                 
             </div>
             <i class="ph ph-arrow-fat-line-left" id="arrowMusic"></i>
@@ -72,11 +91,13 @@
         <div class="location">
                 <h3>Lokasi</h3>
                 <div class="container-img-locatiion">
-                    <img src="Lokasi1.png" alt="lokasi" class="img-location">
-                    <!-- <p>Keluarga Bpk. Zainudin Sianturi</p>
-                    <p>Perum Taman Alamanda </p>
-                    <p>Blok F16 / no. 8</p>
-                    <p>Karang Satria, Bekasi</p> -->
+                    <img src="Bpk Hotman.png" alt="lokasi" class="img-location">
+                    <p><strong> Bpk. Hotman Dules Tambunan.</strong></p>
+                    <p><strong>
+                        Perum Libersa Mansion Cluster Asoka  
+                    </strong></p>
+                    <p><strong> AB 07,</strong></p>
+                    <p><strong> Satria, Bekasi </strong></p>
                 </div>
                 <i class="ph ph-arrow-fat-line-left" id="arrowLocation"></i>
         </div>
@@ -94,8 +115,9 @@
         <div class="time">
             <h3>Waktu</h3>
             <div class="container-img-time">
-
-                <img src="waktuIbadah.png" alt="waktuIbadah" class="img-time">
+                <video class="videoWaktu" autoplay controls>
+                    <source src="videoWaktu.mp4" type="video/mp4">
+                </video>
                 
             </div>
             <i class="ph ph-arrow-fat-line-left" id="arrowTime"></i>
@@ -110,8 +132,10 @@
             <i class="ph ph-arrow-fat-line-left" id="arrowAyat"></i>
         </div>
     </div> -->
+    
     <script src="script.js"></script>
    
     
 </body>
 </html>
+
